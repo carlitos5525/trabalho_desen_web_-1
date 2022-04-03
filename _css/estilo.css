@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin: 30px;
+}
+
+main p{
+    text-align: justify;
+    padding: 5px;
+
+}
+
+.cabecalho{
+    background-color: grey;
+}
+
+.cabecalho p{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rodape{
+    background-color: grey;
+}
+
+.rodape p{
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.topnav{
+    background-color: black;
+    padding: 15px;
+}
+
+.topnav li{
+    display: inline;
+}
+.topnav li#menu_direita{
+    float: right;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#titulo_pagina{
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.conteudo img{
+    display: block;
+    margin: auto;
+}
+
+.legenda_imagem{
+    text-align: center;
+    margin: 15px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.detalhes{
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.detalhes caption{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.detalhes td{
+    font-size: 14px;
+    padding: 12px;
+    border: solid 1px black;
+}
+
+.detalhes td.coluna_esquerda{
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+}
+
+.detalhes td.coluna_direita{
+    text-align: left;
+
+}
